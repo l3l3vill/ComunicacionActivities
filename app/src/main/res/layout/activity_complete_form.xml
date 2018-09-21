@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CompleteForm"
+    android:orientation="vertical">
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/Complete"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"
+    android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/EditTextNickName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/NikcName"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/EditTextRealName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Name"
+        android:textSize="16sp"
+        android:layout_margin="4dp"
+
+        />
+
+    <EditText
+        android:id="@+id/EditTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Email"
+        android:textSize="16sp"
+        android:layout_margin="4dp"
+        />
+    <EditText
+        android:id="@+id/EditTextFavorite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Favorite"
+        android:textSize="16sp"
+        android:layout_margin="4dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Pregunta"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/option1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Opcion1"
+            android:layout_margin="10dp"
+            android:textSize="16sp"/>
+
+        <CheckBox
+            android:id="@+id/option2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Opcion2"
+            android:layout_margin="10dp"
+            android:textSize="16sp"
+            android:layout_toRightOf="@id/option1"
+            />
+
+        <CheckBox
+            android:id="@+id/option3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Opcion3"
+            android:layout_margin="10dp"
+            android:textSize="16sp"
+            android:layout_toRightOf="@id/option2"
+
+            />
+
+        <Button
+            android:id="@+id/ButtonEnviarCompleteForm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/option2"
+            android:layout_toRightOf="@id/option1"
+            android:text="@string/Enviar"
+            android:textSize="16dp"
+            />
+
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

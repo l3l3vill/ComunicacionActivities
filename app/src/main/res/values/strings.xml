@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">LoginRegister</string>
+    <string name="Bienvenido">Welcome to my world!</string>
+    <string name="Start"> Start! </string>
+    <string name="Complete"> Complete this, please! </string>
+    <string name="NikcName"> NickName </string>
+    <string name="Name"> RealName </string>
+    <string name="Email"> Email </string>
+    <string name="Favorite"> Favorite thing in the world </string>
+    <string name="Pregunta"> I would like to give to you </string>
+    <string name="Opcion1"> A kiss :* </string>
+    <string name="Opcion2"> a hug :) </string>
+    <string name="Opcion3"> Chocolate! </string>
+    <string name="Enviar"> Send </string>
+    <string name="SendedInformation"> Sended Information: </string>
+    <string name="gift"> You will give me... </string>
+
+
+</resources>
